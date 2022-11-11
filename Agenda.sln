@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Presentation", "Agenda.Presentation\Agenda.Presentation.csproj", "{E5128FFC-937E-4709-8ED2-E78CFAAFFB55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{61239300-5EB4-43EF-B9A4-AC785BB156B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Acesso a dados", "2 - Camada de Acesso a dados", "{2C77079E-2EE9-4D99-8AF1-4FADE80B7465}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Envio de Mensagens", "3 - Camada de Envio de Mensagens", "{B939AD58-66B9-4D81-91C0-B6DD3DA6A2A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de Relatórios", "4 - Camada de Relatórios", "{A7128FEC-0A11-4030-8BFF-1075BCC7CBF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Data", "Agenda.Data\Agenda.Data.csproj", "{7F43D7F3-306A-40BC-9963-EBCFC925244C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9675E02A-B23A-4AF5-A4B3-A428F915F3A3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda.Reports", "Agenda.Reports\Agenda.Reports.csproj", "{8C68396D-2160-4D37-A0DA-29FE41CF5DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Messages", "Agenda.Messages\Agenda.Messages.csproj", "{C2A30C4E-FCE9-4187-8A15-25C6383F0B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5128FFC-937E-4709-8ED2-E78CFAAFFB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5128FFC-937E-4709-8ED2-E78CFAAFFB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5128FFC-937E-4709-8ED2-E78CFAAFFB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5128FFC-937E-4709-8ED2-E78CFAAFFB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F43D7F3-306A-40BC-9963-EBCFC925244C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F43D7F3-306A-40BC-9963-EBCFC925244C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F43D7F3-306A-40BC-9963-EBCFC925244C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F43D7F3-306A-40BC-9963-EBCFC925244C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C68396D-2160-4D37-A0DA-29FE41CF5DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C68396D-2160-4D37-A0DA-29FE41CF5DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C68396D-2160-4D37-A0DA-29FE41CF5DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C68396D-2160-4D37-A0DA-29FE41CF5DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A30C4E-FCE9-4187-8A15-25C6383F0B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A30C4E-FCE9-4187-8A15-25C6383F0B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A30C4E-FCE9-4187-8A15-25C6383F0B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A30C4E-FCE9-4187-8A15-25C6383F0B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5128FFC-937E-4709-8ED2-E78CFAAFFB55} = {61239300-5EB4-43EF-B9A4-AC785BB156B3}
+		{7F43D7F3-306A-40BC-9963-EBCFC925244C} = {2C77079E-2EE9-4D99-8AF1-4FADE80B7465}
+		{8C68396D-2160-4D37-A0DA-29FE41CF5DCE} = {A7128FEC-0A11-4030-8BFF-1075BCC7CBF6}
+		{C2A30C4E-FCE9-4187-8A15-25C6383F0B81} = {B939AD58-66B9-4D81-91C0-B6DD3DA6A2A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64C7947-AC57-4F00-9394-9341D70F7F61}
+	EndGlobalSection
+EndGlobal
